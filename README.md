@@ -22,12 +22,12 @@ I'll try to keep this library updated if they're API changes, feel free to submi
 
 # Additional Features
 
-## Priority Queue
+### Priority Queue
 **chess-web-api** can be inicialized with a [priority queue](#usage-with-queue) for requests to prevent parellel requests. Requests will be sent as soon as the previous returns. 
 
 Using the queue requires passing in a **callback function** for the result to be sent to.
 
-## Query for Changes
+### Query for Changes
 
 [Chess.com Published-Data API](https://www.chess.com/news/view/published-data-api) also allows clients to provide an **etag** from a previous response to check if data since the last request has changed. 
 
